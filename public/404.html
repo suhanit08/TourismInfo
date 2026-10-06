@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelora</title>
+  </head>
+  <body>
+    <script>
+      const segments = window.location.pathname.split('/').filter(Boolean);
+      const base = `/${segments.shift() || ''}/`;
+      const route = segments.join('/');
+      const query = window.location.search.slice(1);
+      const destination = `${base}?/${route}${query ? `&${query}` : ''}${window.location.hash}`;
+      window.location.replace(destination);
+    </script>
+  </body>
+</html>

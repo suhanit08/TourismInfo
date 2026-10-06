@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#49637a"/><stop offset="1" stop-color="#e4b064"/></linearGradient></defs>
+<rect width="1200" height="720" fill="url(#g)"/>
+<circle cx="950" cy="150" r="110" fill="#fff" opacity=".18"/>
+<path d="M0 470 L140 360 250 455 390 320 520 450 680 300 830 455 990 340 1200 470V720H0Z" fill="#08253b" opacity=".55"/>
+<path d="M0 545 Q200 470 400 545 T800 535 T1200 540V720H0Z" fill="#061a2b" opacity=".8"/>
+<rect x="70" y="570" width="1060" height="2" fill="#fff" opacity=".35"/>
+<text x="70" y="630" fill="white" font-family="Arial" font-size="46" font-weight="700">Darjeeling</text>
+<text x="72" y="668" fill="#fff" opacity=".82" font-family="Arial" font-size="20" letter-spacing="3">WEST BENGAL • MOUNTAINS</text>
+</svg>
